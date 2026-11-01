@@ -2,18 +2,20 @@
 using PitStopShoppingCenter.Helpers;
 using PitStopShoppingCenter.Services;
 
-// Main method - program starts here
-// Create manager object - this will auto-load file
+
 ProductManager manager = new ProductManager();
 bool running = true;
 
 // Main application loop - keeps running until user chooses Exit
 while (running)
 {
-    Console.Clear(); // Clear screen for clean menu 
-    ConsoleHelper.ShowLogo(); // Show PIT STOP SHOPPING CENTER logo
+    // Clear screen for clean menu 
+    Console.Clear();
+    // Show PIT STOP SHOPPING CENTER logo
+    ConsoleHelper.ShowLogo();
+  
 
-    // Level 6: Professional menu system
+    //  menu system
     Console.WriteLine("1. Add Product");
     Console.WriteLine("2. List Products");
     Console.WriteLine("3. Search Product");
