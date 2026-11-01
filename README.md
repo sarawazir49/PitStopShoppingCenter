@@ -20,11 +20,6 @@ Made in C# with .NET 10.
 3. Run in terminal: dotnet run
 4. The app will create products.json automatically
 
-## Check your version
-
-Run this to check:
-dotnet --version
-Should show 10.x.x
 
 ## Project files
 
@@ -35,7 +30,7 @@ If you use multi-file version:
 - Program.cs - Main menu
 
 If you use single file version:
-- Program.cs - Everything in one file (beginner friendly)
+- Program.cs - Everything in one file 
 
 ## Menu
 
