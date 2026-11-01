@@ -40,10 +40,10 @@ namespace PitStopShoppingCenter.Services
 
             var sorted = products.OrderBy(p => p.Price).ToList();
             ConsoleHelper.PrintHeader($"PIT STOP SHOPPING CENTER - {products.Count} Products");
-            Console.WriteLine($"{"ID",-4} | {"Category",-12} | {"Name",-18} | {"Price",9}");
-            Console.WriteLine(new string('-', 55));
+            Console.WriteLine($"{"ID",-4} | {"Category",-12} | {"Name",-18} | {"Price",9} | {"Date",-12}");
+            Console.WriteLine(new string('-', 70));
             foreach (var p in sorted) Console.WriteLine(p);
-            Console.WriteLine(new string('-', 55));
+            Console.WriteLine(new string('-', 70));
             Console.WriteLine($"TOTAL: {products.Sum(p => p.Price):C}");
         }
 

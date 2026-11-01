@@ -21,7 +21,7 @@ namespace PitStopShoppingCenter.Models
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         // Override ToString() to control how product is printed in console
-        // Format: ID | Category | Name | Price
-        public override string ToString() => $"{Id,-4} | {Category,-12} | {Name,-18} | {Price,9:C} ";
+        // Format: ID | Category | Name | Price | Created
+        public override string ToString() => $"{Id,-4} | {Category,-12} | {Name,-18} | {Price,9:C}  | {CreatedAt:yyyy-MM-dd}";
     }
 }
