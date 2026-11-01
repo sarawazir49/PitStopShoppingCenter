@@ -53,6 +53,7 @@ products.json looks like this:
     "Category": "Drinks",
     "Name": "Pepsi",
     "Price": 15.5,
+     "CreatedAt": "2026-11-01",
 
   }
 ]
